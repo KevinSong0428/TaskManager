@@ -16,6 +16,19 @@ db.once("open", () => {
     console.log("Database connected!");
 })
 
+
+// NOT SUITABLE FOR PRODUCTION!!! Using this right now to clean up as we do not have sessions
+const cleanUpDatabase = async () => {
+    try {
+        await TaskModel.deleteMany({});
+        console.log("Database cleaned up successfully upon connection!")
+    } catch (error) {
+        console.error("Error cleaning up database upon connection: ", error);
+    }
+}
+cleanUpDatabase();
+
+
 const app = express();
 
 // middleware

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1699766262415" clover="3.2.0">
-  <project timestamp="1699766262415" name="All files">
+<coverage generated="1699793124428" clover="3.2.0">
+  <project timestamp="1699793124428" name="All files">
     <metrics statements="47" coveredstatements="40" conditionals="4" coveredconditionals="3" methods="14" coveredmethods="10" elements="65" coveredelements="53" complexity="0" loc="47" ncloc="47" packages="1" files="3" classes="3"/>
     <file name="TaskFormDialog.tsx" path="/Users/kevinsong/iCloud Drive (Archive)/Documents/code/TaskManagerApplication/task-manager/src/components/TaskFormDialog.tsx">
       <metrics statements="23" coveredstatements="19" conditionals="3" coveredconditionals="2" methods="7" coveredmethods="5"/>
