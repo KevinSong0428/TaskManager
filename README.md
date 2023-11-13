@@ -76,10 +76,12 @@ npm start
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Notes
-Markup: * Make sure you have Node.js, npm, and MongoDB installed on your machine.
-        * The server and task manager are separate applications, so you must set them up individually.
-        * Ensure that the MongoDB connection string in the server matches your MongoDB setup.
-        
+<ul>
+        <li>Make sure you have Node.js, npm, and MongoDB installed on your machine.</li>
+  <li>The server and task manager are separate applications, so you must set them up individually.</li>
+  <li>Ensure that the MongoDB connection string in the server matches your MongoDB setup.</li>
+</ul>
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS -->
