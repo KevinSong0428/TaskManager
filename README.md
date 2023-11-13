@@ -40,7 +40,7 @@
 ## Application Setup
 In order to successfully execute this project, you will need to do all of the following setup items. Please follow the instructions below, from top to bottom sequentially, to make sure that you are set up to run the app. The app is run on a React frontend, Express back-end, and a MongoDB database.
 ### 1) Installation
-1.1) Clone the repository
+1) Clone the repository
 ```bash
 git clone https://github.com/KevinSong0428/TaskManager.git
 ```
@@ -63,7 +63,7 @@ npm run dev
 ```bash
 cd server
 ```
-3,2) Install dependencies
+3.2) Install dependencies
 ```bash
 npm install
 ```
