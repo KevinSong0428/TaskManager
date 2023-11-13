@@ -44,12 +44,12 @@ In order to successfully execute this project, you will need to do all of the fo
 1) Clone the repository
 ```bash
 git clone https://github.com/KevinSong0428/TaskManager.git
-```
-<br>### 2) Frontend Setup
+```  
+### 2) Frontend Setup
 2.1) Change into frontend directory
 ```bash
 cd task-manager
-```
+```  
 2.2) Install dependencies
 ```bash
 npm install
@@ -57,8 +57,8 @@ npm install
 2.3) Start the web browser
  ```bash
 npm run dev
-```
-<br>### 3) Backend Setup 
+```  
+### 3) Backend Setup 
 3.1) Change into the backend directory
 ```bash
 cd server
@@ -70,7 +70,7 @@ npm install
 3.3) Starting the backend
  ```bash
 npm start
-```
+```  
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
