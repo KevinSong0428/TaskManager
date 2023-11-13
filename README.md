@@ -17,6 +17,7 @@
         <li><a href="#backend-setup">Backend Setup</li>
       </ul>
     </li>
+    <li><a href="#testing">Testing</a></li>
     <li><a href="#notes">Notes</a></li>
   </ol>
 </details>
@@ -73,6 +74,14 @@ npm install
  ```bash
 npm start
 ```  
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Testing
+To run tests, change to the backend directory and use the following command:
+```bash
+npm test
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
