@@ -13,10 +13,11 @@
     </li>
     <li><a href="#installation">Installation</a>
       <ul>
-        <li><a href="#javascript-dependencies">Typescript Dependencies</li>
+        <li><a href="#frontend-setup">Frontend Setup</li>
+        <li><a href="#backend-setup">Backend Setup</li>
       </ul>
     </li>
-    <li><a href="#getting-started">Getting Started</a></li>
+    <li><a href="#notes">Notes</a></li>
     <li><a href="#usage">Usage</a></li>
   </ol>
 </details>
@@ -37,33 +38,52 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Installation
+## Application Setup
+In order to successfully execute this project, you will need to do all of the following setup items. Please follow the instructions below, from top to bottom sequentially, to make sure that you are set up to run the app. The app is run on a React frontend, Express back-end, and a MongoDB database.
+### Installation
+1) Clone the repository
+```bash
+git clone https://github.com/KevinSong0428/TaskManager.git
+```
+### Frontend Setup
+1) Change into frontend directory
+```bash
+cd task-manager
+```
+2) Install dependencies
+```bash
+npm install
+```
+3) Start the web browser
+ ```bash
+npm run dev
+```
 
-### JavaScript Dependencies
-1) Navigate to the root directory of the project and use npm (Node Package Manager) to create a project and run: `npm init -y`.
-2) Use npm to install the JavaScript libraries and packages which can be found in the `package.json` file.
-### Python Dependencies  
-1) To install the required Python dependencies, navigate to the project's root directory and run: `pip install -r requirements.txt`
+### Backend Setup 
+1) Change into the backend directory
+```bash
+cd server
+```
+2) Install dependencies
+```bash
+npm install
+```
+3) Starting the backend
+ ```bash
+npm start
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Getting Started
-1) You need to create a Cloudinary account and create a `.env` file and get these THREE keys after creating an account.
-* **CLOUDINARY_CLOUD_NAME** - CLOUDINARY_CLOUD_NAME=``<br>
-* **CLOUDINARY_KEY** - CLOUDINARY_KEY=``<br>
-* **CLOUDINARY_SECRET** - CLOUDINARY_SECRET=``<br>
-2) Change `secret` in `app.js` for the session configuration.
-3) Connect to the correct Mongo database in the `app.js` file.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Usage
-To run the website on your local server,  please .
-
+## Notes
+Markup: * Make sure you have Node.js, npm, and MongoDB installed on your machine.
+        * The server and task manager are separate applications, so you must set them up individually.
+        * Ensure that the MongoDB connection string in the server matches your MongoDB setup.
+        
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS -->
-[Redux-url]: https://cloudinary.com/developers](https://react-redux.js.org/tutorials/typescript-quick-start)
+[Redux-url]: https://react-redux.js.org/tutorials/typescript-quick-start
 [React-url]: https://www.typescriptlang.org/docs/handbook/react.html
 [Mongoose-url]: https://www.npmjs.com/package/mongoose
 [TypeScript-url]: https://www.typescriptlang.org/
