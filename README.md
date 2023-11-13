@@ -18,7 +18,6 @@
       </ul>
     </li>
     <li><a href="#notes">Notes</a></li>
-    <li><a href="#usage">Usage</a></li>
   </ol>
 </details>
 
@@ -77,7 +76,7 @@ npm start
 
 ## Notes
 <ul>
-        <li>Make sure you have Node.js, npm, and MongoDB installed on your machine.</li>
+  <li>Make sure you have Node.js, npm, and MongoDB installed on your machine.</li>
   <li>The server and task manager are separate applications, so you must set them up individually.</li>
   <li>Ensure that the MongoDB connection string in the server matches your MongoDB setup.</li>
 </ul>
