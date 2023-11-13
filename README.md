@@ -22,7 +22,7 @@
 </details>
 
 ## Introduction
-<p>This project was a quick single-page web application where I used TypeScript with React and Redux in the frontend. I created a server with Express.js with basic CRUD functionalities and used MongoDB as the database.</p>
+<p>This project is a quick single-page web application using TypeScript with React and Redux in the frontend. I created a server with Express.js with basic CRUD functionalities and used MongoDB as the database.</p>
 <p>Disclaimer: This project is not made for production.</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -49,7 +49,7 @@ git clone https://github.com/KevinSong0428/TaskManager.git
 ### 2) Frontend Setup
 2.1 - Change into frontend directory
 ```bash
-cd task-manager
+cd TaskManager/task-manager
 ```  
 2.2 - Install dependencies
 ```bash
@@ -63,7 +63,7 @@ npm run dev
 ### 3) Backend Setup 
 3.1 - Change into the backend directory
 ```bash
-cd server
+cd TaskManager/server
 ```
 3.2 - Install dependencies
 ```bash
